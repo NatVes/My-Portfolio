@@ -5,39 +5,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Natalia Veselova // Web Developer</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
+    <div class="navigation">
+      <h1>Natalia Veselova</h1>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="https://drive.google.com/file/d/1HzhfFrVHoiM8hAVoItM2Ei9DPhtid4tm/view?usp=sharing" target="_blank">Resume</a>
+      </nav>
+    </div>
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+  <section class="heroBanner">   
+    <figure id="myPhoto"></figure>    
+    <div id="subtitle">
+      <h2>Per Aspera Ad Astra!</h2>
     </div>
   </section>
 
-  <main class="page-wrapper">
+  <main class="pageWrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
+    <section class="pageSection" id="about">
       <h2>About Me</h2>
+      <div class="aboutText">
+      <p>Hello! I'm Natalia Veselova, based in Rotherham, England, and I'm on a journey to become a web developer. With a background in Civil Engineering, I'm currently immersed in learning HTML, CSS, and JavaScript. Drawing on my experience in residential projects and proficiency in 3D modelling and CAD software, I'm applying these skills to the world of web development.</p>
+      <br>
+      <p>I'm well-versed in using ArchiCAD for designing low-rise residential projects, showcasing my abilities in structural design and construction drawing. Now, with a focus on mastering web development languages like HTML, CSS, and JavaScript, I'm committed to expanding my skill set. My collaborative approach, shaped by past engineering experiences, positions me as a promising talent in the dynamic field of web development.</p>
+      <br>
+      </div>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
+    <section class="pageSection" id="work">
       <h2>Work</h2>
+      <div class="workGrid">
+        <div id="firstWork" class="workArea">
+          <a class="bgImg" href="https://natves.github.io/prework-study-guide/"  alt="Prewor Study Guide Webpage" target="_blank">
+            <div class="headline">
+              <h3>Prework Study Guide</h3>
+              <p>HTML/CSS/JavaScript</p>
+            </div>
+          </a>          
+        </div>
+        <div id="secondWork" class="workArea">
+          <a class="bgImg" href="https://natves.github.io/Day4_Challenge/" alt="Horiseon Webpage" target="_blank">
+            <div class="headline">
+              <h3>Code Refactor</h3>
+              <p>HTML/CSS</p>
+            </div>
+          </a>          
+        </div>
+        <div id="thirdWork" class="workArea">
+          <a class="bgImg" href="https://natves.github.io/CSS_Snippet_Cheat_Sheet/" alt="CSS Snippet Cheat Sheet Webpage" target="_blank">
+            <div class="headline">
+              <h3>CSS Cheat Sheet</h3>
+              <p>HTML/CSS</p>
+            </div>
+          </a>          
+        </div>
+        <div id="fourthWork" class="workArea">
+          <a href="#" class="bgImg" alt="Here will be my new webpage">
+            <div class="headline">
+              <h3>Coming soon...</h3>
+              <p>HTML/CSS/JavaScript</p>
+            </div>
+          </a>          
+        </div>
+        <div id="fifthWork" class="workArea">
+          <a href="#" class="bgImg" alt="Here will be my new webpage">
+            <div class="headline">
+              <h3>Coming soon...</h3>
+              <p>HTML/CSS/JavaScript</p>
+            </div>
+          </a>          
+        </div>
+      </div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
+    <section class="pageSection contact" id="contact">
       <h2>Contact Me</h2>
+      <div class="contactData">
+        <a href="#" class="disabledLink">+447519918832</a>
+        <a href="mailto:nat.veselowa2010@yandex.ru" target="_blank">nat.veselowa2010@yandex.ru</a>
+        <a href="https://github.com/NatVes" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ves-na/" target="_blank">Linkedin</a>
+        <a href="https://www.facebook.com/profile.php?id=61554083459814" target="_blank">Facebook</a>
+      </div>
     </section>
   </main>
 </body>
