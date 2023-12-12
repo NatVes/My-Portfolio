@@ -36,15 +36,15 @@ Here's how it works:
 
 N/A
 
-**Get Started**
+## Get Started
 
 Ready to explore? Visit my portfolio following this [link](https://natves.github.io/My-Portfolio/) to check out the details of my skills and projects. Navigate through sections to uncover the story and thought process behind each project.
 
-**Future Updates**
+## Future Updates
 
 This portfolio is a living entity. As my journey in web development progresses, new projects and achievements will find a place here. If you encounter placeholder images, rest assured—they will be replaced with real applications as the course unfolds.
 
-**Connect and Feedback**
+## Connect and Feedback
 
 Your input is valuable! Whether you have suggestions or questions, feel free to reach out. Your insights contribute to the continual improvement of this portfolio.
 
